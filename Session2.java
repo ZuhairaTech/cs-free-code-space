@@ -7,7 +7,7 @@ public class Session2 {
         int jumlah = num3; // jumlah = num3
         int purata = jumlah / 2; // purata = jumlah / 2
         System.out.println("Purata: " + purata); // PAPAR purata
-
+        // test
      }
 
 }
