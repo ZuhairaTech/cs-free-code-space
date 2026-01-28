@@ -1,11 +1,23 @@
 // Java Example
 public class Practical2 {
     public static void main(String[] args) {
-        //TODO: Masukkan nombor pertama
-        //TODO: Masukkan nombor kedua
-        //TODO: Masukkan jenis operasi iaitu sama ada tambah atau darab
-        //TODO: Sekiranya operasi ialah tambah, maka jumlahkan nombor pertama dan kedua
-        //TODO: Sekiranya operasi ialah darab, maka darabkan nombor pertama dan kedua
-        //TODO: Paparkan jawapan
+        // == != > < >= <=
+        // && (AND) 
+        // || (OR) 
+        // ! (NOT)
+        String a = "10";
+        String b = "20";
+
+        if(!a.equals("5")) {
+            System.out.println("a bukan 5");
+        }
+
+        if(a.equals("10") && b.equals("20")) {
+            System.out.println("a ialah 10 dan b ialah 20");
+        }
+
+        if(a.equals("10") || b.equals("30")) {
+            System.out.println("Salah satu benar");
+        }
     }
 }
